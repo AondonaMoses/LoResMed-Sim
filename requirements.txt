@@ -1,0 +1,6 @@
+torchio
+nibabel
+torch
+numpy
+matplotlib
+tqdm

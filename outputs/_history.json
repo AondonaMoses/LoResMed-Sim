@@ -1,0 +1,7 @@
+{
+    "MNI152_T1_2mm_brain.nii.gz": [
+        "Resample(target=3, image_interpolation=linear, pre_affine_name=None, scalars_only=False)",
+        "RandomResample()",
+        "RandomCrop(crop_percentage_range=(0.2, 0.5), min_fov_percentage=0.5)"
+    ]
+}
