@@ -98,7 +98,7 @@ This section showcases an example of the degradation process, comparing an origi
 - **File:** `Sample_Data/MNI152_T1_2mm_brain.nii.gz`
 - **Visualization:** 
 _High-resolution MRI scan prior to degradation._   
-![Original MRI](https://github.com/ConfidenceRaymond/LMICsQ-Sim/blob/main/Sample_Data/original_img.png)
+![Original MRI](https://github.com/AondonaMoses/LoResMed-Sim/blob/main/Sample_Data/MNI152_T1_2mm_brain.nii.gz)
 
 
 **Degraded Image**
@@ -106,7 +106,7 @@ _High-resolution MRI scan prior to degradation._
 - **Visualization:** 
 _Degraded MRI scan exhibiting low-resource imaging artifacts._
 
-![Degraded MRI](https://github.com/ConfidenceRaymond/LMICsQ-Sim/blob/main/Sample_Data/full_degraded.png)
+![Degraded MRI](https://github.com/AondonaMoses/LoResMed-Sim/blob/main/outputs/full_degraded.nii)
 
 
 **Transform History**
