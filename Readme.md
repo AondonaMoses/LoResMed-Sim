@@ -6,7 +6,7 @@ This pipeline leverages `torchio` to degrade high-quality MRI scans, replicating
 ## Degradation Transforms
 
 ### Low Resolution
-To emulate the reduced spatial resolution of legacy LMIC scanners:
+To emulate the reduced spatial resolution of legacy resource-constrained settings scanners:
 - **Resample**: `tio.Resample()` randomly adjusts voxel sizes to `[2, 3, 4, 5, 6]` mm, reflecting coarse sampling.
 - **Anisotropy**: `tio.RandomAnisotropy()` downsamples a single axis (`[0, 1, 2]`) by a factor of 2–6, producing anisotropic voxels (e.g., 1x1x5mm), typical of rapid acquisitions.
 - **Universal Application**: One of these is applied to all images to ensure consistent resolution degradation.
