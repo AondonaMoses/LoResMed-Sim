@@ -1,5 +1,5 @@
 # LoResMed-Sim: Low-Resolution Medical Imaging Simulator
-LMICsQ-Sim Demo [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1q49_Y9pMlXLi9y614JV3ilYjXBTr7Rqc?usp=sharing)
+LoResMed-Sim Demo [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1q49_Y9pMlXLi9y614JV3ilYjXBTr7Rqc?usp=sharing)
 
 This pipeline leverages `torchio` to degrade high-quality MRI scans, replicating the imaging artifacts and limitations prevalent in `resource-constrained settings`. It simulates the effects of `outdated hardware`, `suboptimal calibration`, and `operational constraints`, enabling robust testing/training of image analysis algorithms under realistic conditions. Below are the implemented degradation transforms:
 
